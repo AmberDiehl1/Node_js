@@ -39,7 +39,7 @@ const questions = [
   {
     type: 'input',
     name: 'test',
-    message: 'What command should be run to run tests?',
+    message: 'What command should be run to run tests (list instructions)?',
     default: 'npm test',
   },
   {
@@ -50,7 +50,7 @@ const questions = [
   {
     type: 'input',
     name: 'contributing',
-    message: 'What does the user need to know about contributing to the repo?',
+    message: 'What does the user need to know about contributing guidelines to the repo?',
   },
 ];
 
@@ -58,15 +58,15 @@ const questions = [
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err)=>
   err ? console.log(err) : console.log('Successfully created index.html!'))
-}
+};
 
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) => {
   console.log(answers)
   writeToFile('README.md',generateMarkdown(answers))
-  }
-)}
+  });
+}
 
 // Function call to initialize app
 init();
