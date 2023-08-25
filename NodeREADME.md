@@ -1,7 +1,7 @@
 # Professional-Node-README
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
   ## Description
-   This project tests the node functionality 
+   This project is used to run node js within the js terminal
   ## Table of Contents
   - [title](#Professional-Node-README)
   - [description](#description)
@@ -12,15 +12,15 @@
   - [Tests](#Tests)
   - [Questions](#Questions)
   ## Installation
-  - Create a github repo with a unique name
+  npm i
   ## Usage
-  - Type in "code ." into git once the repo is saved on your computer
+  This repo is user-friendly
   ## License
   https://opensource.org/licenses/Apache-2.0
   ## Contributing 
-  - Use "git commit -m "enter commit messages" to commit the changes into git
+  follow the questions and asnwer as desired
   ## Tests
-  - Clone the https github repo URL into git using the git clone function
+  npm test
   ## Questions
   - Github: AmberDiehl1
   Please contact me via my email with further questions: amberdiehl@outlook.com
